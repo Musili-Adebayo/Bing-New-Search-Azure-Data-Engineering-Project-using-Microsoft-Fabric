@@ -1,7 +1,5 @@
 # Bing-New-Search_End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric (Sentiment Analysis).
 
-# of Fabric DE Project of NewsData
-
 ![Slide1](https://github.com/Musili-Adebayo/Bing-New-Search---End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Olympic%20Games%20Paris%202024%20News.png)
 
 ##  Project Summary
