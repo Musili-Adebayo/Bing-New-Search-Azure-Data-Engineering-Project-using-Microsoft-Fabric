@@ -45,8 +45,7 @@ For the Sentiment Analysis, I use SynapseML formerly (MMLSpark) which is an open
 Below is the Data Visualization and report of the Olympic news for the past 7 days as at when I performed this analysis. Over 100 news was published and only 17% of it has positive sentiments.
 [Download the Sentiment Analysis Dashboard in PDF here](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Sentiment%20Analysis%20Dashboard.pdf)
 
-[Download the Sentiment Analysis Dashboard Image here](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Sentiment%20Analysis%20Dashboard.png)
-
+![Sentiment Analysis Dashboard](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Sentiment%20Analysis%20Dashboard.png)
 
 6. Set up Alerts with Data Activator with notifications on Microsoft Teams.
 I created an alert called Positive Alert Item and I would like to receive a Teams message alert when the Positive Sentiment is greater than 17%.
