@@ -62,13 +62,7 @@ While building the visualization, the following KPIs were considered;
 2. Percentage of each review type
 3. Total Review
 4. Review by Country
-5. Review by category...
-
-## Report Design and Visualization
-+ The Report Canvas was designed in Canva .
-+ A sample of the Home page in here 👇 below.
-<img src="https://github.com/Abdur-RasheedAde/Sentiment-Analysis-of-Fabric-Data-Engineering-Project-of-NewsData/blob/main/HomePage.png" width=75% height=75%> 
-Link to download PowrBI PDF Report is here 👉 [DownloadPDF](https://github.com/Abdur-RasheedAde/Sentiment-Analysis-of-Fabric-Data-Engineering-Project-of-NewsData/blob/main/News_Report.pdf)
+5. Review by category....
 
 
 ## Conclusions 
