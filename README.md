@@ -32,7 +32,7 @@ Datasource: Olympic news data were loaded from Bing Search Resource News Search 
 To connect to the source data, I use the RestAPI connection available in Fabric to connect to the Bing Search resource API in Azure. 
 - Setting the Data Destination.
 For the Destination, I set the destination to the bing_olympic_news_db Lakehouse I had created earlier. I also created a file path called olympic-news.json and set the file format to JSON.
-3. Data Transformation with Incremental Loading.
+3. Data Transformation with Incremental Loading:
 I use the spark job within Microsoft Fabric for this and I also implement a Type 1 SCD to load our data into the Lakehouse incrementally.
 - ###### Implementing the Type 1 Slowing Changing Dimension (SCD) to avoid loading duplicate data during incremental loading. I opted for type 1 because I am not interested in keeping a history of our existing data.
 -  [View ETL codes here](https://github.com/Musili-Adebayo/Bing-New-Search---End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/ETL_process_olympic_news.ipynb)
