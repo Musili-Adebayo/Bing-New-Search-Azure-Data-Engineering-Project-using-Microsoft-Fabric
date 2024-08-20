@@ -26,7 +26,7 @@ Datasource: Olympic news data were loaded from Bing Search Resource News Search 
 + Continuous Improvement
   
 ## Data Engineering Process
-###### 1. Create a Bing Search Resource in Azure:
+#### 1. Create a Bing Search Resource in Azure:
 I created a resource group called AzureXfabric_rg and used the marketplace to search for the Bing Search v7 API to create a Bing Search resource.  I picked the F1 (3 calls per second and 1k Calls per month) pricing tier because it is free.
 3. Data Ingestion: As our data lake, I created a Microsoft Fabric Lakehouse called the bing_olympic_news_db which I connected the Bing Search resource API and also configured the Source and Destination.
 - Configuring the Data Source 
