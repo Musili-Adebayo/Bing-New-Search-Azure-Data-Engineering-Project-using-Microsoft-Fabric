@@ -34,13 +34,12 @@ To connect to the source data, I use the RestAPI connection available in Fabric 
 For the Destination, I set the destination to the bing_olympic_news_db Lakehouse I had created earlier. I also created a file path called olympic-news.json and set the file format to JSON.
 3. Data Transformation with Incremental Loading.
 I use the spark job within Microsoft Fabric for this and I also implement a Type 1 SCD to load our data into the Lakehouse incrementally.
+- ###### Implementing the Type 1 Slowing Changing Dimension (SCD) to avoid loading duplicate data during incremental loading. I opted for type 1 because I am not interested in keeping a history of our existing data.
 -  [View ETL codes here](https://github.com/Musili-Adebayo/Bing-New-Search---End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/ETL_process_olympic_news.ipynb)
 
 4. Sentiment Analysis with Incremental Loading.
 For the Sentiment Analysis, I use SynapseML formerly (MMLSpark) which is an open-source library that is available within Microsoft Fabric. It is a pre-built intelligent model for our machine learning task and predicts the Olympic news sentiments based on the news description column which has a detailed description of the news article as seen above.
 [View Sentiment Analysis codes here](https://github.com/Musili-Adebayo/Bing-New-Search---End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/olympic_news_sentiment_analysis.ipynb)
-
-- ### Implementing the Type 1 Slowing Changing Dimension (SCD) to avoid loading duplicate data during incremental loading. I opted for type 1 because I am not interested in keeping a history of our existing data.
 
 5. Data Visualization in Power BI.
 Below is the Data Visualization and report of the Olympic news for the past 7 days as at when I performed this analysis. Over 100 news was published and only 17% of it has positive sentiments.
