@@ -61,5 +61,5 @@ For the Visualization, I measure the following KPIs.
 2. Percentage of each sentiment (positive, negative, neutral, and mixed)
 
 
-## Conclusions 
+## In Summary 
 1. This was an exciting opportunity  to demonstrate how Azure Data Services (known as items in Fabric) can be replicated in Microsoft Fabric(an all-in-one analytics solution). These items include DataFactory, Lakehouse, Pipeline, Power BI, Intelligence and  Machine Learning many more. 
