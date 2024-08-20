@@ -53,7 +53,9 @@ I created an alert called Positive Alert Item and I would like to receive a Team
 
 7. Schedule Refresh: Since the news data is live, there is a need to schedule its refresh every morning at 7 am in Data Factory. This refresh covers the data Ingestion (pipeline), ETL_process_olympic_news (notebook), and olympic_news_sentiment_analysis.ipynb (notebook)
 The refresh schedule is shown here 👇
-![image](https://github.com/user-attachments/assets/21e8af78-47c4-497e-940d-1d67860b47a3)
+
+https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png
+![Schedule Refresh](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png)
 
 
 ## KPI Metrics 
