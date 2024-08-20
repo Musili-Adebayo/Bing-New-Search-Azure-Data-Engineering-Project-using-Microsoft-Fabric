@@ -15,7 +15,7 @@ For this project, I analyzed the sentiment analysis from the recently concluded 
 ## Data Source: 
 Datasource: Olympic news data were loaded from Bing Search Resource News Search APIs v7 (https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
 
-## DE Technical Skills:
+## Data Engineering Technical Skills:
 + Data Ingestion
 + Data Pipeline: Data factory, incremental load, schedule refresh
 + Fabric Data Storage: JSON, Lake House
@@ -53,10 +53,7 @@ I created an alert called Positive Alert Item and I would like to receive a Team
 
 7. Schedule Refresh: Since the news data is live, there is a need to schedule its refresh every morning at 7 am in Data Factory. This refresh covers the data Ingestion (pipeline), ETL_process_olympic_news (notebook), and olympic_news_sentiment_analysis.ipynb (notebook)
 The refresh schedule is shown here 👇
-
-https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png
 ![Schedule Refresh](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png)
-
 
 ## KPI Metrics 
 For the Visualization, I measure the following KPIs.
