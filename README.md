@@ -41,18 +41,18 @@ I use the spark job within Microsoft Fabric for this and I also implement a Type
 For the Sentiment Analysis, I use SynapseML formerly (MMLSpark) which is an open-source library that is available within Microsoft Fabric. It is a pre-built intelligent model for our machine learning task and predicts the Olympic news sentiments based on the news description column which has a detailed description of the news article as seen above.
 [View Sentiment Analysis codes here](https://github.com/Musili-Adebayo/Bing-New-Search---End-to-End-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/olympic_news_sentiment_analysis.ipynb)
 
-5. Data Visualization in Power BI.
+5. Schedule Refresh: Since the news data is live, there is a need to schedule its refresh every morning at 7 am in Data Factory. This refresh covers the data Ingestion (pipeline), ETL_process_olympic_news (notebook), and olympic_news_sentiment_analysis.ipynb (notebook)
+The refresh schedule is shown here 👇
+![Schedule Refresh](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png)
+
+6. Data Visualization in Power BI.
 Below is the Data Visualization and report of the Olympic news for the past 7 days as at when I performed this analysis. Over 100 news was published and only 17% of it has positive sentiments.
 [Download the Sentiment Analysis Dashboard in PDF here](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Sentiment%20Analysis%20Dashboard.pdf)
 
 ![Sentiment Analysis Dashboard](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Sentiment%20Analysis%20Dashboard.png)
 
-6. Set up Alerts with Data Activator with notifications on Microsoft Teams.
+7. Set up Alerts with Data Activator with notifications on Microsoft Teams.
 I created an alert called Positive Alert Item and I would like to receive a Teams message alert when the Positive Sentiment is greater than 17%.
-
-7. Schedule Refresh: Since the news data is live, there is a need to schedule its refresh every morning at 7 am in Data Factory. This refresh covers the data Ingestion (pipeline), ETL_process_olympic_news (notebook), and olympic_news_sentiment_analysis.ipynb (notebook)
-The refresh schedule is shown here 👇
-![Schedule Refresh](https://github.com/Musili-Adebayo/Bing-New-Search-Azure-Data-Engineering-Project-using-Microsoft-Fabric./blob/main/Schedule%20Refresh%20-%20News_Ingestion%20Pipeline.png)
 
 ## KPI Metrics 
 For the Visualization, I measure the following KPIs.
