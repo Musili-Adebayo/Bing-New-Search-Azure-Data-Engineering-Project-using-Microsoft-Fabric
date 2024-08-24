@@ -65,3 +65,7 @@ For the Visualization, I measure the following KPIs.
 
 ## In Summary 
 1. This was an exciting opportunity  to demonstrate how Azure Data Services (known as items in Fabric) can be replicated in Microsoft Fabric(an all-in-one analytics solution). These items include DataFactory, Lakehouse, Pipeline, Power BI, Intelligence and  Machine Learning many more. 
+
+#### If you prefer reading, you can read extensively about this project on Medium and Linkedin below
+-  [Read on Medium here](https://medium.com/art-of-data-engineering/bing-new-search-end-to-end-azure-data-engineering-project-using-microsoft-fabric-995dc7dd3d37)
+-  [Read on LinkedIn here](https://www.linkedin.com/pulse/bing-new-search-end-to-end-azure-data-engineering-project-adebayo-1dorf/)
